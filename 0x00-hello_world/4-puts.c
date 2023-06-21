@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *  main function
- * return O if  successful
+ *main functionb as entry point
+ *return O if  successful
  */
 int main(void)
 {
