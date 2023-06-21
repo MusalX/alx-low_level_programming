@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *  hello C main return 0
- *  */
+ *  main function
+ * return O if  successful
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
