@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- *main functionb as entry point
- *return O if  successful
+ *main - entry point
+ *print a text
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
