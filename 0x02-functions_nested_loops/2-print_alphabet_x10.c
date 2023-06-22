@@ -10,7 +10,7 @@ for (j = 1; j < 11; j++)
 {
 for (i = 97; i < 123; i++)
 {
-putchar(i);
+_putchar(i);
 }
 _putchar('\n');
 }
