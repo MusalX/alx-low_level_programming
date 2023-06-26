@@ -15,16 +15,21 @@ int i, j, p, d, u;
 		d = p / 10;
 		u = p % 10;
 		{
-		if (d != 0)
+		if (j == 0)
+		{
+		_putchar(p + 48);
+		}
+		else if (d != 0)
 		{
 		_putchar(d + 48);
+		_putchar(u + 48);
 		}
 		else
 		{
 			_putchar(' ');
+			_putchar(u + 48);
 		}
 		}
-		_putchar(u + 48);
 		if (j != 9)
 		{
 			_putchar(',');
