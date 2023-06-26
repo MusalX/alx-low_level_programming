@@ -14,7 +14,10 @@ int i, j, p, d, u;
 		p = i * j;
 		d = p / 10;
 		u = p % 10;
+		if (d > 0)
+		{
 		_putchar(d + 48);
+		}
 		_putchar(u + 48);
 		if (j != 9)
 		{
