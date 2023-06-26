@@ -12,8 +12,8 @@ int i, j, p;
 		for (j = 0; j <= 9; j++)
 		{
 		p = i * j;
-		_puthcar(p + 48);
-		-putchar(',');
+		_putchar(p + 48);
+		_putchar(',');
 		}
 		_putchar('\n');
 	}
