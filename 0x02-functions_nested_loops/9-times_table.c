@@ -16,13 +16,16 @@ int i, j, p, d, u;
 		u = p % 10;
 		_putchar(d + 48);
 		_putchar(u + 48);
-		_putchar(',');
 		}
 		if (j == 9)
 		{
-			_putchar(' ');
-			_putchar(' ');
 			_putchar('\n');
 		}
+		{
+			_putchar(',');
+			_putchar(' ');
+			if (p < 10)
+				_putchar(' ');
+		}
 	}
-	}
+}
